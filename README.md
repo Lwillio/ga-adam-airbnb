@@ -3,7 +3,7 @@ General Assembly - Guided Project - AirBnB Amsterdam
 
 ## Project Statement
 
-A client wants to invest in an AirBnB property in Amsterdam, Netherlands. Using a scraped dataset, advise your client using at least one of the following prompts:
+A client wants to invest in an AirBnB property in Amsterdam, Netherlands. Using a provided, scraped dataset, advise your client using at least one of the following prompts:
 
 * How much revenue do successful hosts generate?
 * Which property types receive the most positive reviews?
