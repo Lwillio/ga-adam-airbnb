@@ -52,17 +52,44 @@ This exploratory analysis will be used to guide data cleaning.
 
 ### Cleaning Methods Used
 
-All data was cleaned in R
+All data was cleaned in R. The additional provided Translations files were also used to clean and normalize the data.
+
 
 1. Impute or omit NULL values
+
+The dataset was subsetted to only include rows with NA values (NULLs in R). This allowed manual review to determine best steps to resolve these values.
+
   Missing values exist for state, beds, bedrooms, bathrooms, zipcode, host response rate, and each of the review scores
+  - neighborhood column translated using additional file provided, no NULLS existed
+  - city column used translated value, effectively imputing all values to Amsterdam
+  - state column NULLs (0.1%) imputed to North Holland per State Translation file, all other rows translated to North Holland
+  - zip column NULLs (2.22%) imputed to mode of zip by neighborhood
+  - bedrooms (0.18%), beds (0.17%), and bathrooms (0.88%) NULL rows were omitted from the data set, they comprised less than 1% of rows and could not be reasonably imputed - 49 rows affected
+  - host response rate (HRR) column NULLs (9.35%) imputed to zero
+  - review scores rows removed if all values zero
+  - review scores rows containing NaN values also removed, due to effect on dataset; relative low effect of removal on dataset - 14 rows affected, all with 2 or fewer reviews
+  - review scores NULLs imputed to mean value of scores if at least one rating existed to retain the mean rating while also giving a more reasonable approximation of the value of these ratings had they been provided
+ 
+ Review scores NULLs existed for over 20% of rows, but not all rows contained NULLs for all review values. Rows with zero reviews were removed from the data set per the given instructions.
 
 
 2. Remove duplicates
-- check that they're actually duplicates
 
-### Feature Engineering - in RStudio
+Using the dplyr package in R, duplicate rows were identified. These were manually checked against the dataset in Excel. Once the duplicates were checked and verified, these were eliminated from the dataset. Approximately 20 rows were affected.
+
+Once cleaning was complete, another EDA report was run on the new data. See [clean data EDA report](final-project/edaReport_cleandata.html)
+
+
+### Feature Engineering - in R
+
+1. A zip_no column was created, containing only the numerical portion of the provided zip code. The analysis did not require more granularity than "neighborhood" so specificity here was not needed.
+2. host_since_anniversary was split into month and day, with day imputed to the first of the month if null, then combined with existing host_since_year column to generate a single column host_since date in date format. Two null host_since rows were ignored after identification here.
+3. Additional columns added to be able to calculate revenue: number of people accommodated, number of guests included, cost per night for max number accomodated, cost to book, estimated number of stays, and estimated total revenue
+
 ### Recommendations based on Prompt 2
 
 notes:
+
 demand is key - number of bookings normalized against number of listings per neighborhood
+
+overlay zipcode and neighborhood maps to see if specific subsections are correlated to anything
