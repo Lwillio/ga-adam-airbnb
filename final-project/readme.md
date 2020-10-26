@@ -86,10 +86,9 @@ Once cleaning was complete, another EDA report was run on the new data. See [cle
 2. host_since_anniversary was split into month and day, with day imputed to the first of the month if null, then combined with existing host_since_year column to generate a single column host_since date in date format. Two null host_since rows were ignored after identification here.
 3. Additional columns added to be able to calculate revenue: number of people accommodated, number of guests included, cost per night for max number accomodated, cost to book, estimated number of stays, and estimated total revenue
 
+Full code available [here](final-project/a_dam_airbnb.R)
+
 ### Recommendations based on Prompt 2
 
-notes:
+The data was evaluated categorically by type of property, including subtype (i.e. "Apartment - entire home" and "Apartment - Private Room") as a function of both rating value and count of ratings. Reading the prompt as "highest number of positive reviews" generated "Apartment - Entire home/apt" as the clear leader, followed by . Further analysis is needed to evaluate this more effectively.
 
-demand is key - number of bookings normalized against number of listings per neighborhood
-
-overlay zipcode and neighborhood maps to see if specific subsections are correlated to anything
