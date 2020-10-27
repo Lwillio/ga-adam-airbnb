@@ -38,8 +38,8 @@ Finally, updating the Average Reviews visualization from before to a function of
 
 Combining these data outcomes, a final recommendation was made for investing in a **Boat** in the **Center-West** neighborhood, with the intention of renting the entire property on AirBnB. Revenue was prioritized over reviews to arrive at this recommendation, however, reviews determined the final recommendations from the available options.
 
+_Full Tableau workbook available_ [here](https://public.tableau.com/profile/lg1798#!/vizhome/Project1_672/HMAVGREVPTRT), _please see Metadata at the bottom of the page to navigate between visualizations._
 
-
-## _Final Project - Revision_ 
+## _TBD - Final Project - Revision_ 
 
 _TBD - this project will be revisited both to complete prompts not approached earlier and to reattempt the original prompt with better and more complete information/analysis_
