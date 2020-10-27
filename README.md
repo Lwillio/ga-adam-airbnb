@@ -14,7 +14,7 @@ Finally, provide your client a clear investment recommendation for a specific ma
 
 ## [Final Project](https://github.com/Lwillio/ga-adam-airbnb/tree/main/final-project)
 
-This sub folder contains all project files for this project as completed for the guided project. Exploratory Data Analysis, Data Cleaning and Feature Engineering were completed in R, and results were visualized in Tableau Public.
+This sub folder contains all project files for this project as completed for the guided project. Exploratory Data Analysis, Data Cleaning and Feature Engineering were completed [in R](https://github.com/Lwillio/ga-adam-airbnb/blob/main/final-project/a_dam_airbnb.R), and results were visualized in [Tableau Public](https://public.tableau.com/profile/lg1798#!/vizhome/Project1_672/HMAVGREVPTRT).
 
 Which Property Types receive the most positive reviews?
 
