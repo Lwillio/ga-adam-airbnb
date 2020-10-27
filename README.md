@@ -18,17 +18,17 @@ This sub folder contains all project files for this project as completed for the
 
 Which Property Types receive the most positive reviews?
 
-![Average Reviews by Property Type as a function of Review and Count](ga-adam-airbnb/blob/main/final-project/images/avgRev-propType-reviews.png)
+![Average Reviews by Property Type as a function of Review and Count](https://github.com/Lwillio/ga-adam-airbnb/blob/main/final-project/images/avgRev-propType-reviews.png)
 
 Based on the data (and the interpretation at the time of "highest count of high reviews"), Apartment listings for the entire apartment received the most positive reviews, followed by **House - Entire** and **Boat - Entire** respectively.
 
 For investment recommendations, Revenue was the primary indicated used to advise the client, both by Property Type and by Neighborhood. 
 
-![Revenue by Property Type](ga-adam-airbnb/blob/main/final-project/images/revenueByPropType.png)
+![Revenue by Property Type](https://github.com/Lwillio/ga-adam-airbnb/blob/main/final-project/images/revenueByPropType.png)
 
 The top three property types to recommend were **Villa**, **Boat**, and **Loft** in that order, based on median revenue. This should be updated to be normalized for number of listings.
 
-![Revenue by Neighborhood](ga-adam-airbnb/blob/main/final-project/images/revenueByNeighborhood.png)
+![Revenue by Neighborhood](https://github.com/Lwillio/ga-adam-airbnb/blob/main/final-project/images/revenueByNeighborhood.png)
 
 The top three neighborhoods to recommend were, in order; **Center-West**, **Center-East**, and **The Baarsjes** - with Center-West as the clear leader for total revenue. This is total revenue rather than revenue per listing (average or otherwise) so may not be a reasonable mode of comparison, and should be revisited.
 
