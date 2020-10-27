@@ -12,7 +12,7 @@ A client wants to invest in an AirBnB property in Amsterdam, Netherlands. Using 
 
 Finally, provide your client a clear investment recommendation for a specific market.
 
-## [Final Project](ga-adam-airbnb/tree/main/final-project)
+## [Final Project](https://github.com/Lwillio/ga-adam-airbnb/tree/main/final-project)
 
 This sub folder contains all project files for this project as completed for the guided project. Exploratory Data Analysis, Data Cleaning and Feature Engineering were completed in R, and results were visualized in Tableau Public.
 
