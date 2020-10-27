@@ -26,11 +26,11 @@ For investment recommendations, Revenue was the primary indicator used to advise
 
 ![Revenue by Property Type](https://github.com/Lwillio/ga-adam-airbnb/blob/main/final-project/images/revenueByPropType.png)
 
-The top three property types to recommend were **Villa**, **Boat**, and **Loft** in that order, based on median revenue. This should be updated to be normalized for number of listings.
+The top three property types to recommend were **Villa**, **Boat**, and **Loft** in that order, based on median revenue. 
 
 ![Revenue by Neighborhood](https://github.com/Lwillio/ga-adam-airbnb/blob/main/final-project/images/revenueByNeighborhood.png)
 
-The top three neighborhoods to recommend were, in order; **Center-West**, **Center-East**, and **The Baarsjes** - with Center-West as the clear leader for total revenue. This is total revenue rather than revenue per listing (average or otherwise) so may not be a reasonable mode of comparison, and should be revisited.
+The top three neighborhoods to recommend were, in order; **Center-West**, **Center-East**, and **The Baarsjes** - with Center-West as the clear leader for total revenue. 
 
 Finally, updating the Average Reviews visualization from before to a function of Revenue rather than Count of Reviews, we see **Apartment** as the leader once more, followed by **House - Entire** and **Boat - Entire** more closely tied for second than before.
 
