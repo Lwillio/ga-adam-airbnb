@@ -1,4 +1,4 @@
-# ga-adam-airbnb
+# Investing in an AirBnB Property in Amsterdam
 General Assembly - Guided Project - AirBnB Amsterdam
 
 ## Project Statement
