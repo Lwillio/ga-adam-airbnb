@@ -24,17 +24,17 @@ Based on the data (and the interpretation at the time of "highest count of high 
 
 For investment recommendations, Revenue was the primary indicator used to advise the client, both by Property Type and by Neighborhood. 
 
-![Revenue by Property Type](https://github.com/Lwillio/ga-adam-airbnb/blob/main/final-project/images/revenueByPropType.png)
+![Revenue by Property Type](/final-project/images/revenueByPropType.png)
 
 The top three property types to recommend were **Villa**, **Boat**, and **Loft** in that order, based on median revenue. 
 
-![Revenue by Neighborhood](https://github.com/Lwillio/ga-adam-airbnb/blob/main/final-project/images/revenueByNeighborhood.png)
+![Revenue by Neighborhood](/final-project/images/revenueByNeighborhood.png)
 
 The top three neighborhoods to recommend were, in order; **Center-West**, **Center-East**, and **The Baarsjes** - with Center-West as the clear leader for total revenue. 
 
 Finally, updating the Average Reviews visualization from before to a function of Revenue rather than Count of Reviews, we see **Apartment** as the leader once more, followed by **House - Entire** and **Boat - Entire** more closely tied for second than before.
 
-![Average Revenue by Property Type as function of Revenue](https://github.com/Lwillio/ga-adam-airbnb/blob/main/final-project/images/avgRev-propType-revenue.png)
+![Average Revenue by Property Type as function of Revenue](/final-project/images/avgRev-propType-revenue.png)
 
 Combining these data outcomes, a final recommendation was made for investing in a **Boat** in the **Center-West** neighborhood, with the intention of renting the entire property on AirBnB. Revenue was prioritized over reviews to arrive at this recommendation, however, reviews determined the final recommendations from the available options.
 
