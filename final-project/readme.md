@@ -17,7 +17,7 @@ Original data was loaded in Excel to gather initial data insights, including:
 * Blanks noted in state column
 * Additional insights provided in DataExplorer output, including data types, etc.
 
-Data uploaded to data.world to run against R (using a SQL hook to import), DataExplorer package used to visualize data characteristics (as shown in [this initial EDA](final-project/edaReport_initialdata.html). An initial R code was provided to guide this:
+Data uploaded to data.world to run against R (using a SQL hook to import), DataExplorer package used to visualize data characteristics (as shown in [this initial EDA](final-project/edaReport_initialdata.pdf). An initial R code was provided to guide this:
 
 ```
 {
@@ -75,7 +75,7 @@ The dataset was subsetted to only include rows with NA values (NULLs in R). This
 
 Using the dplyr package in R, duplicate rows were identified. These were manually checked against the dataset in Excel. Once the duplicates were checked and verified, these were eliminated from the dataset. Approximately 20 rows were affected.
 
-Once cleaning was complete, another EDA report was run on the new data. See [clean data EDA report](final-project/edaReport_cleandata.html)
+Once cleaning was complete, another EDA report was run on the new data. See [clean data EDA report](final-project/edaReport_cleandata.pdf)
 
 
 ### Feature Engineering - in R
